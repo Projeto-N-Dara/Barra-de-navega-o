@@ -1,0 +1,21 @@
+   nav {
+     display: flex;
+     justify-content: space-around; /* Distribui os itens */
+     align-items: center; /* Alinha verticalmente */
+     background-color: #000000;
+     padding: 25px;
+   }
+
+   nav ul {
+     display: flex;
+     list-style: none; /* Remove marcadores de lista */
+     padding: px;
+     margin: 0;
+   }
+
+   nav ul li a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     padding: 10px 20px;
+     font-size: 20px;
+   }
