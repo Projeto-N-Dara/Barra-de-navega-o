@@ -71,3 +71,32 @@ button.prev {
 button.next {
   right: 10px;
 }
+
+.progress-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+
+.progress-indicator {
+  width: 40px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.6); /* branco com 40% de opacidade */
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: #803e2a;
+  border-radius: 4px;
+  transition: width linear;
+}
