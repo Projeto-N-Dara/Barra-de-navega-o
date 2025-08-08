@@ -1,0 +1,23 @@
+footer{
+    border-top: solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 50%;
+}
+
+footer a{
+    color: rgb(54, 53, 53)
+}
+
+p{
+    padding-bottom: 2000px;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+.titulos{
+    padding-bottom: 50px;
+}
