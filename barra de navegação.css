@@ -1,5 +1,5 @@
-html, body, div, span, applet, object, iframe,
-h2, h3, h4, h5, h6, p, blockquote, pre,
+  html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -20,13 +20,20 @@ time, mark, audio, video {
 }
   body { 
     background-color: #e9dcc9;
+    padding-top: 80px;
   }
   nav {
      display: flex;
-     justify-content: space-around; 
-     align-items: center; 
-     background-color: #5c3a21;
-     padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5c3a21;
+    padding: 25px;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    z-index: 999;
+    
    }
 
    nav ul {
