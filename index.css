@@ -11,7 +11,7 @@ footer a{
 }
 
 p{
-    padding-bottom: 2000px;
+    padding-bottom: 20px;
     font-size: 20px;
 }
 
@@ -22,3 +22,74 @@ h1{
 .titulos{
     padding-bottom: 50px;
 }
+
+html {
+  scroll-padding-top: 80px; /* Evita que a barra fixe esconda títulos */
+  background-color: #e9dcc9;
+}
+
+body { 
+  padding-top: 80px;
+}
+
+/* Espaçamento normal nos parágrafos */
+p {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+/* Estilo da seção Sobre */
+.sobre {
+  position: relative;
+  background: linear-gradient(135deg, #fff0f6, #ffe0ec, #fff7e6);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #4a2c2a;
+  max-width: 900px;
+  margin: 40px auto;
+  overflow: hidden;
+  background-size: 200% 200%;
+  transition: background-position 1s ease;
+}
+
+.sobre:hover {
+  background-position: right center;
+}
+
+.sobre h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #d45a84;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.sobre p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: center;
+  color: #5a3a2e;
+}
+
+.sobre::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -75%;
+  width: 50%; height: 100%;
+  background: linear-gradient(
+    120deg, 
+    transparent, 
+    rgba(255,255,255,0.4), 
+    transparent
+  );
+  transform: skewX(-25deg);
+  transition: 0.7s;
+}
+
+.sobre:hover::after {
+  left: 125%;
+}
+
+
