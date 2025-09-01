@@ -39,7 +39,8 @@ p {
 }
 
 /* Estilo da seção Sobre */
-.sobre {
+.estilizacao{
+  font-family: "Caveat", cursive;
   position: relative;
   background: linear-gradient(135deg, #fff0f6, #ffe0ec, #fff7e6);
   padding: 50px;
@@ -54,11 +55,11 @@ p {
   transition: background-position 1s ease;
 }
 
-.sobre:hover {
+.estilizacao:hover {
   background-position: right center;
 }
 
-.sobre h2 {
+.estilizacao h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
   color: #d45a84;
@@ -66,14 +67,14 @@ p {
   letter-spacing: 1px;
 }
 
-.sobre p {
+.estilizacao p {
   font-size: 1.1rem;
   line-height: 1.7;
   text-align: center;
   color: #5a3a2e;
 }
 
-.sobre::after {
+.estilizacao::after {
   content: "";
   position: absolute;
   top: 0; left: -75%;
@@ -88,7 +89,7 @@ p {
   transition: 0.7s;
 }
 
-.sobre:hover::after {
+.estilizacao:hover::after {
   left: 125%;
 }
 
